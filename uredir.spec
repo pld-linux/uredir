@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://www.ibiblio.org/pub/Linux/system/network/misc/%{name}-%{version}.tar.gz
+# Source0-md5:	408c1172839368c5631ecef9df18778b
 Patch0:		%{name}-fn_name.patch
 Vendor:		Id Est <id-est@home.com>
 #BuildRequires:	libwrap-devel
