@@ -5,8 +5,6 @@ Version:	1.0
 Release:	1
 License:	GPL
 Group:		Applications/Networking
-Group(de):	Applikationen/Netzwerkwesen
-Group(pl):	Aplikacje/Sieciowe
 Source0:	http://www.ibiblio.org/pub/Linux/system/network/misc/%{name}-%{version}.tar.gz
 Patch:		uredir-fn_name.patch
 Vendor:		Id Est <id-est@home.com> 
