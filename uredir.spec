@@ -1,5 +1,5 @@
-Summary:	redirect UDP connections
-Summary(pl):	Przekieruj po³±czenia UDP
+Summary:	Redirect UDP connections
+Summary(pl):	Przekierowywanie po³±czeñ UDP
 Name:		uredir
 Version:	1.0
 Release:	1
@@ -18,7 +18,7 @@ Redir redirects udp connections coming in to a local port to a
 specified address/port combination.
 
 %description -l pl
-Redir przekierowuje po³±czenia udp przychodz±ce na okre¶lony lokalnyt
+Redir przekierowuje po³±czenia udp przychodz±ce na okre¶lony lokalny
 port na podany inny adres oraz port.
 
 %prep
