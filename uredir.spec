@@ -6,8 +6,8 @@ Release:	1
 License:	GPL
 Group:		Applications/Networking
 Source0:	http://www.ibiblio.org/pub/Linux/system/network/misc/%{name}-%{version}.tar.gz
-Patch:		uredir-fn_name.patch
-Vendor:		Id Est <id-est@home.com> 
+Patch0:		%{name}-fn_name.patch
+Vendor:		Id Est <id-est@home.com>
 #BuildRequires:	libwrap-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,7 +32,7 @@ install -d $RPM_BUILD_ROOT{%{_sbindir},%{_mandir}/man1}
 
 install uredir		$RPM_BUILD_ROOT%{_sbindir}
 
-gzip -9nf README 
+gzip -9nf README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
