@@ -24,6 +24,7 @@ port na podany inny adres oraz port.
 
 %build
 %{__make} \
+	CC="%{__cc}" \
 	OPT_FLAGS="%{rpmcflags}"
 
 %install
